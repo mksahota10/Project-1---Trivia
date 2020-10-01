@@ -78,7 +78,9 @@ let questions= [
   let questionTracker = 0;
   let score = 0;
   let wasQuestionAsked = true;
-  
+  let player1=0;
+  let player2=0;
+
   
   function askQ()
   {
@@ -162,12 +164,16 @@ let questions= [
       }
       else
       {
+        player1=score
+        if(player1 === true){
+          player2=score
+        }
+        console.log(player1, player2);
         showFinalScore();
       }
     }
     
     }
-
   
   // FUNCTION THAT WILL DISPLAY THE SCORE ONCE TRIVIA GAME IS OVER 
   function showFinalScore()
@@ -190,17 +196,42 @@ let questions= [
 
   
   submitButton.addEventListener("click", validateAnswer, false);
-  window.onload = function timer() {
-    let secs = 0;
-        let id = setInterval(function timer(){ 
-            secs++; console.log(secs);
-          if(secs> 9){
-            clearInterval(id);
-            alert("Time's up!");
-            showFinalScore();
-           }
-        }, 6000);
-    } 
+  // window.onload = function timer() {
+let timer = () => {
+  let remainingTime = 45; 
+  let timerTime = setInterval(function(){
+    if (remainingTime<= 0) {
+        clearInterval(timerTime); 
+        document.getElementById('timer').innerHTML= "You ran out of time!";
+        showFinalScore()
+    } else {
+      document.getElementById('timer').innerHTML= remainingTime +  " Seconds Left!";
+    }
+    remainingTime -=1; 
+  }, 1000);
+  
+}
+{
+}
+
+    // document.getElementById('alrt').innerHTML='<b>"Times Up!!!" </b>';
+    // setTimeout(function timer() {document.getElementById('alrt').innerHTML='';showFinalScore()
+    // ;},5000);
+
+  
+
+
+
+    // let secs = 0;
+    //     let id = setInterval(function timer(){ 
+    //         secs++; console.log(secs);
+    //       if(secs> 9){
+    //         clearInterval(id);
+    //         alert("Time's up!");
+    //         showFinalScore();
+    //        }
+    //     }, 00);
+    // } 
 
 
 
