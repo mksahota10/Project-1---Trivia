@@ -1,0 +1,43 @@
+body{
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    background-color: rgb(83, 83, 131);
+    margin: 200px auto;
+    font-size: 20px;
+}
+h1{
+font-size: 45px;
+
+}
+
+
+#question{
+    display: grid;
+    width: 306px;
+    margin: 50px auto;
+    font-family: "Permanent Marker", monospace;
+    width: 700px;
+    height: 200px;
+    box-shadow: 0 0 0 0px #746b6b;
+    border: 10px solid #757575;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+/*#choices{
+    display: grid;
+    margin: 0px auto;
+    font-family: "Permanent Marker", monospace;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 0 0px #746b6b;
+    border: 5px solid #757575;
+    cursor: pointer;
+    line-height: 0px;
+    font-size: 20px;
+    text-justify: center;
+    text-align: center;
+
+}
