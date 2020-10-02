@@ -78,8 +78,16 @@ let questions= [
   let questionTracker = 0;
   let score = 0;
   let wasQuestionAsked = true;
-  let player1=0;
-  let player2=0;
+  let playerOne=0;
+  let playerTwo=0;
+
+  let currentPlayerTurn = () => `It's ${currentPlayer}'s turn`
+  function handlePlayerChange() {
+      currentPlayer = currentPlayer === "playerOne" ? "playerTwo" : "playerOne"
+      statusDisplay.innerHTML = currentPlayerTurn()
+  }
+
+
 
   
   function askQ()
@@ -165,10 +173,10 @@ let questions= [
       else
       {
         player1=score
-        if(player1 === true){
-          player2=score
+        if(playerOne === true){
+          playerTwo=score
         }
-        console.log(player1, player2);
+        console.log(player, playerTwo);
         showFinalScore();
       }
     }
