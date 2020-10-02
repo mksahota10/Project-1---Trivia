@@ -3,7 +3,7 @@ let questions= [
       "question":
         "Companies that continue to operate even though they’re bankrupt are called ?",
       "allAnswers": ["Mummy", "Zoombie", "DeadWater"],
-      "correctAnswer": "Zoombie",
+      "correctAnswer": "Zombie",
     },
     {
       "question": "Lets get this Bread, refers to",
@@ -79,16 +79,16 @@ let questions= [
   let score = 0;
   let wasQuestionAsked = true;
   let playerOne=0;
+  let oldScore=0;
   let playerTwo=0;
+  let currentPlayer = "playerOne"
+  
 
-  let currentPlayerTurn = () => `It's ${currentPlayer}'s turn`
-  function handlePlayerChange() {
-      currentPlayer = currentPlayer === "playerOne" ? "playerTwo" : "playerOne"
-      statusDisplay.innerHTML = currentPlayerTurn()
-  }
-
-
-
+  // let currentPlayerTurn = () => `It's ${currentPlayer}'s turn`
+  // function handlePlayerChange() {
+  //     currentPlayer = currentPlayer === "playerOne" ? "playerTwo" : "playerOne"
+  //     statusDisplay.innerHTML = currentPlayerTurn()
+  // }
   
   function askQ()
   {
@@ -176,7 +176,8 @@ let questions= [
         if(playerOne === true){
           playerTwo=score
         }
-        console.log(player, playerTwo);
+        console.log(playerOne, playerTwo);
+
         showFinalScore();
       }
     }
@@ -188,14 +189,28 @@ let questions= [
   {
     content.innerHTML = "<h2>You've finished the Trivia Game!</h2>" + "<h2>These are your results:</h2>" +
      "<h2>" + score + " out of a total of " + questions.length + " questions." + "<br>" + "Your percentage was: " + Math.round(score / questions.length * 100) +
-      "</h2>" + "<br>" + "<button class='btn btn-warning' onclick='reset()'>Player 2's Turn</button>";
+      "</h2>" + "<br>" + "<button class='btn btn-warning' onclick='reset()'>Player's 2 Turn</button>"; 
   }
+  function finalResults ()
+  {
+  content.innerHTML= "playerOne;" + oldScore + "playerTwo" + score; 
+  }
+
   
   //FUNCTION THAT WILL RESET THE GAME 
   function reset()
   
   {
-    location.reload();
+    debugger 
+    if (currentPlayer== "playerOne"){
+      location.reload() 
+   oldScore = score
+   score = 0;
+   currentPlayer= "playerTwo";
+    }
+    else{
+      showFinalScore();
+    }
   }
 
   
@@ -206,7 +221,7 @@ let questions= [
   submitButton.addEventListener("click", validateAnswer, false);
   // window.onload = function timer() {
 let timer = () => {
-  let remainingTime = 45; 
+  let remainingTime = 10; 
   let timerTime = setInterval(function(){
     if (remainingTime<= 0) {
         clearInterval(timerTime); 
@@ -221,6 +236,22 @@ let timer = () => {
 }
 {
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // document.getElementById('alrt').innerHTML='<b>"Times Up!!!" </b>';
     // setTimeout(function timer() {document.getElementById('alrt').innerHTML='';showFinalScore()
