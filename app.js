@@ -2,7 +2,7 @@ let questions= [
     {
       "question":
         "Companies that continue to operate even though they’re bankrupt are called ?",
-      "allAnswers": ["Mummy", "Zoombie", "DeadWater"],
+      "allAnswers": ["Mummy", "Zombie", "DeadWater"],
       "correctAnswer": "Zombie",
     },
     {
@@ -78,6 +78,7 @@ let questions= [
   let questionTracker = 0;
   let score = 0;
   let wasQuestionAsked = true;
+
   let playerOne=0;
   let oldScore=0;
   let playerTwo=0;
@@ -172,12 +173,12 @@ let questions= [
       }
       else
       {
-        player1=score
-        if(playerOne === true){
-          playerTwo=score
-        }
-        console.log(playerOne, playerTwo);
-
+        //player1=score
+        //if(playerOne === true){
+          //playerTwo=score
+        //}
+        //console.log(playerOne, playerTwo);
+debugger
         showFinalScore();
       }
     }
@@ -185,11 +186,13 @@ let questions= [
     }
   
   // FUNCTION THAT WILL DISPLAY THE SCORE ONCE TRIVIA GAME IS OVER 
+  debugger
   function showFinalScore()
   {
     content.innerHTML = "<h2>You've finished the Trivia Game!</h2>" + "<h2>These are your results:</h2>" +
      "<h2>" + score + " out of a total of " + questions.length + " questions." + "<br>" + "Your percentage was: " + Math.round(score / questions.length * 100) +
       "</h2>" + "<br>" + "<button class='btn btn-warning' onclick='reset()'>Player's 2 Turn</button>"; 
+      askQ ();
   }
   function finalResults ()
   {
@@ -201,15 +204,21 @@ let questions= [
   function reset()
   
   {
-    debugger 
+   
     if (currentPlayer== "playerOne"){
-      location.reload() 
+      remainingTime = 10;
+      //location.reload() 
+     questionTracker =0;
    oldScore = score
    score = 0;
-   currentPlayer= "playerTwo";
+   debugger 
+   currentPlayer = "playerTwo";
+   askQ ();
     }
     else{
-      showFinalScore();
+      debugger
+      finalResults();
+      
     }
   }
 
