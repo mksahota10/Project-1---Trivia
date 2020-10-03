@@ -1,35 +1,39 @@
 body{
-    color: white;
-    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-family: Rockwell Extra Bold;
     text-align: center;
-    background-color: rgb(106, 164, 190);
+    background-color: rgb(83, 110, 122);
     margin: 200px auto;
-    font-size: 30px;
- 
-   
-    
+    font-size: 30px;   
+    background-image: url(wallstreet.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px) 
 }
+
 h1{
-font-size: 45px;
+font-size: 55px;
 
 }
-
 
 #question{
     display: grid;
     width: 306px;
     margin: 50px auto;
-    font-family: "Permanent Marker", monospace;
+    font-family: Rockwell Extra Bold;
     width: 700px;
     height: 200px;
-    box-shadow: 0 0 0 0px #746b6b;
-    border: 10px solid #757575;
+    box-shadow: 0 0 0 0px #444141;
+    border: 10px solid #3f3f3f;
     cursor: pointer;
     line-height: 50px;
     font-size: 30px;
 }
-#User{
-    color:#29dddd;
+#choices{
+    color:#ffffff;
+    font-weight: bold;
 
 }
 
