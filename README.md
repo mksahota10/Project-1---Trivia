@@ -1,5 +1,42 @@
 # Project-1---Trivia
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Made a simple Finance Trivia. 
 Used Objects and arrays to store my questions. 
 Used DOM maniplulation to get my questions to post on the website. 
