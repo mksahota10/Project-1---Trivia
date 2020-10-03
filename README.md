@@ -1,12 +1,27 @@
 # Project-1---Trivia
 
+ ### Demo: https://mksahota10.github.io/Project-1---Trivia/
+
+User stories:
 
 
 
+Concept:
+My game was a simple Finance Trivia for Two players to compete and see who can score the most points in 45 seconds 
+
+Technologies Used:
+HTML
+CSS
+JavaScript
 
 
+Approach:
 
+Development Plan:
 
+MVP:
+
+Challenges:
 
 
 
