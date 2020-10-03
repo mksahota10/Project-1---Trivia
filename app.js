@@ -115,7 +115,7 @@ for (let i = 0; i < choices.length; i++) {
 //LOAD UP QUESTIONS 
 
 questionHolder.textContent = "Question: " + (questionTracker + 1) + ". " + questions[questionTracker].question;
-/* LOAD UP ANSWERS */
+// LOAD UP ANSWERS 
 choicesHolder.innerHTML = tempChoices;
 
 // SETUP, FIRST ITERATION 
@@ -216,7 +216,7 @@ window.addEventListener("load", askQ, false);
 
 submitButton.addEventListener("click", validateAnswer, false);
 let timer = () => {
-let remainingTime = 10;
+let remainingTime = 30;
 timerTime = setInterval(function () {
   if (remainingTime <= 0) {
       clearInterval(timerTime);
