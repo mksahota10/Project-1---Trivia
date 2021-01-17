@@ -68,116 +68,73 @@ let questions = [
       "Getting a penny that’s doubled every day for a 31-day month.",
   },
   {
-  question: "What is the average annual rate of inflation for college tuition around the USA?",
-    allAnswers: [
-      "11%",
-      "4%",
-      "8%",
-      "2%"
-    ],
-    correctAnswer:
-      "8%",
+    question:
+      "What is the average annual rate of inflation for college tuition around the USA?",
+    allAnswers: ["11%", "4%", "8%", "2%"],
+    correctAnswer: "8%",
   },
   {
     question: "Bonds sold by cities or towns are called...",
-      allAnswers: [
-        "Municipal Bonds",
-        "Corporate Bonds",
-        "U.S. savings bonds",
-        "Coupon Bonds"
-      ],
-      correctAnswer:
-        "Municipal Bonds",
-    },
-    {
-      question: "Spreading out risk in your investments is called..",
-        allAnswers: [
-          "Diversification",
-          "Dollar-cost averaging",
-          "Fluctuation",
-          "Investment"
-        ],
-        correctAnswer:
-        "Diversification",
-      },
-      {
-        question: "When companies share profits with stockholders, this is called...",
-          allAnswers: [
-            "A stock split",
-            "Growth",
-            "A blue-chip stock",
-            "Dividends"
-          ],
-          correctAnswer:
-            "Dividends",
-        },
-        {
-          question: "Upward trends in the stock market are called...",
-            allAnswers: [
-              "Recessions",
-              "Fluctuations",
-              "Investments",
-              "Expansions"
-            ],
-            correctAnswer:
-              "Expansions",
-          },
+    allAnswers: [
+      "Municipal Bonds",
+      "Corporate Bonds",
+      "U.S. savings bonds",
+      "Coupon Bonds",
+    ],
+    correctAnswer: "Municipal Bonds",
+  },
+  {
+    question: "Spreading out risk in your investments is called..",
+    allAnswers: [
+      "Diversification",
+      "Dollar-cost averaging",
+      "Fluctuation",
+      "Investment",
+    ],
+    correctAnswer: "Diversification",
+  },
+  {
+    question:
+      "When companies share profits with stockholders, this is called...",
+    allAnswers: ["A stock split", "Growth", "A blue-chip stock", "Dividends"],
+    correctAnswer: "Dividends",
+  },
+  {
+    question: "Upward trends in the stock market are called...",
+    allAnswers: ["Recessions", "Fluctuations", "Investments", "Expansions"],
+    correctAnswer: "Expansions",
+  },
 
-          {
-            question: "Ups and downs in the stock market are known as...",
-              allAnswers: [
-                "Expansions",
-                "Recessions",
-                "Fluctuations",
-                "Investments"
-              ],
-              correctAnswer:
-                "Fluctuations",
-            },
-            {
-              question: "A piece of the ownership of a company is called a...",
-                allAnswers: [
-                  "Dividend",
-                  "Principal",
-                  "Bond",
-                  "Stock"
-                ],
-                correctAnswer:
-                  "Stock",
-              },{
-                question: "The amount of money you invest is called...",
-                  allAnswers: [
-                    "Coupon rate",
-                    "Principal",
-                    "Dividents",
-                    "Growth"
-                  ],
-                  correctAnswer:
-                    "Principal",
-                },
-                {
-                  question: "The gradual decrease in the value of an asset is called...",
-                    allAnswers: [
-                      "Depreciation",
-                      "Appreciation",
-                      "Repossession",
-                      "Foreclosure"
-                    ],
-                    correctAnswer:
-                      "Depreciation",
-                  },
-                  {
-                    question: "The money you receive for working at a job is an example of",
-                      allAnswers: [
-                        "Discretionary Income",
-                        "A financial goal",
-                        "Income",
-                        "An expense"
-                      ],
-                      correctAnswer:
-                        "Discretionary Income",
-                    },
-
+  {
+    question: "Ups and downs in the stock market are known as...",
+    allAnswers: ["Expansions", "Recessions", "Fluctuations", "Investments"],
+    correctAnswer: "Fluctuations",
+  },
+  {
+    question: "A piece of the ownership of a company is called a...",
+    allAnswers: ["Dividend", "Principal", "Bond", "Stock"],
+    correctAnswer: "Stock",
+  },
+  {
+    question: "The amount of money you invest is called...",
+    allAnswers: ["Coupon rate", "Principal", "Dividents", "Growth"],
+    correctAnswer: "Principal",
+  },
+  {
+    question: "The gradual decrease in the value of an asset is called...",
+    allAnswers: ["Depreciation", "Appreciation", "Repossession", "Foreclosure"],
+    correctAnswer: "Depreciation",
+  },
+  {
+    question: "The money you receive for working at a job is an example of",
+    allAnswers: [
+      "Discretionary Income",
+      "A financial goal",
+      "Income",
+      "An expense",
+    ],
+    correctAnswer: "Discretionary Income",
+  },
 ];
 
 // defined all the variables on top.
