@@ -1,40 +1,100 @@
+
 body{
-    color: rgb(0, 0, 0);
-    font-family: Rockwell Extra Bold;
-    text-align: center;
-    background-color: rgb(83, 110, 122);
-    margin: 200px auto;
-    font-size: 30px;   
-    background-image: url(wallstreet.jpg);
-    background-repeat: no-repeat;
-    width: 95%;
-    background-position: center;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(10px) 
+  color: rgb(0, 0, 0);
+  font-family: Rockwell Extra Bold;
+  text-align: center;
+  background-color:white;
+  margin: 50px auto;
+    
+  background-image: url(wallstreet.jpg);
+  /* background-repeat: no-repeat; */
+  width: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px); 
+  cursor:pointer;
+  
 }
 
 h1{
-font-size: 55px;
-
+font-size: 75px;
+color: yellow;
+border: 10px solid #3f3f3f;
+margin: 20px auto;
+font-family: Rockwell Extra Bold;
+width: 700px;
+height: 50px;
+padding: 30px 75px 75px 100px;
+background-color:rgb(83, 110, 122)
 }
 
 #question{
-    display: grid;
-    width: 306px;
-    margin: 50px auto;
-    font-family: Rockwell Extra Bold;
-    width: 700px;
-    height: 200px;
-    box-shadow: 0 0 0 0px #444141;
-    border: 10px solid #3f3f3f;
-    cursor: pointer;
-    line-height: 50px;
-    font-size: 30px;
+  display: grid;
+  width: 306px;
+  margin: 50px auto;
+  font-family: Rockwell Extra Bold;
+  width: 700px;
+  height: 200px;
+  box-shadow: 0 0 0 0px #444141;
+  border: 10px solid #3f3f3f;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 30px;
+  background-color:white;
 }
 #choices{
-    color:#ffffff;
-    font-weight: bold;
-
+  color:#ffffff;
+  font-weight: bold;
+  border: 5px solid #3f3f3f;
+  width: 500px;
+  height: 100px;
+  background-color:rgb(83, 110, 122);
+  margin: 20px auto;
+ 
 }
 
+button{
+  background:rgb(83, 110, 122);
+  font-family: Rockwell Extra Bold;
+  color:yellow;
+  border:none;
+  position:relative;
+  height:50px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#444141;
+  color:rgb(83, 110, 122)
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background:rgb(83, 110, 122);
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+  #score {
+    border: 5px solid yellow;
+    font-size: 10px;
+    width: 120px;
+    margin: 10px auto;
+  }
 

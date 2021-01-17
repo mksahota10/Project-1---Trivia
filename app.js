@@ -15,58 +15,169 @@ let questions = [
     allAnswers: ["1792", "1620", "1865"],
     correctAnswer: "1792",
   },
-  {
-    question:
-      "What is the highest $ value of currency ever issued by the U.S. government?",
-    allAnswers: ["The 100 bill", "The $500 bill", "The $100,000 bill"],
-    correctAnswer: "The $100,000 bill",
-  },
-  {
-    question: "What is the offical term for the HEAD side of the coin?",
-    allAnswers: ["Front", "IPS (Important Person Side)", "Obverse"],
-    correctAnswer: "Obverse",
-  },
-  {
-    question: "What is the science of coins called?",
-    allAnswers: ["Centology", "Greed", "Numismatics"],
-    correctAnswer: "Numismatics",
-  },
-  {
-    question: "The term 'E Pluribus Unum' represents what?",
-    allAnswers: [
-      "The original thirteen colonies",
-      "The year America was discovered",
-      "The pen used for the signature on all dollars",
-    ],
-    correctAnswer: "The pen used for the signature on all dollars",
-  },
-  {
-    question: "Why do we call a dollar a 'buck'?",
-    allAnswers: [
-      "The first dollar was made from the skin of a male deer",
-      "In the frontier days, the pelt of a male deer was worth a dollar",
-      "Buck was the artist that drew the design on the first paper money",
-    ],
-    correctAnswer: "The first dollar was made from the skin of a male deer",
-  },
-  {
-    question: "The word “tax” originates from:",
-    allAnswers: [
-      "The Latin taxo, meaning “I estimate”",
-      "The Greek taxum, meaning “to take",
-      "Taxi,” which takes you places for a fee",
-    ],
-    correctAnswer: "The Latin taxo, meaning “I estimate”",
-  },
-  {
-    question: "Which is better?",
-    allAnswers: [
-      "Getting $100,000 at once",
-      "Getting a penny that’s doubled every day for a 31-day month.",
-    ],
-    correctAnswer:
-      "Getting a penny that’s doubled every day for a 31-day month.",
-  },
+  // {
+  //   question:
+  //     "What is the highest $ value of currency ever issued by the U.S. government?",
+  //   allAnswers: ["The 100 bill", "The $500 bill", "The $100,000 bill"],
+  //   correctAnswer: "The $100,000 bill",
+  // },
+  // {
+  //   question: "What is the offical term for the HEAD side of the coin?",
+  //   allAnswers: ["Front", "IPS (Important Person Side)", "Obverse"],
+  //   correctAnswer: "Obverse",
+  // },
+  // {
+  //   question: "What is the science of coins called?",
+  //   allAnswers: ["Centology", "Greed", "Numismatics"],
+  //   correctAnswer: "Numismatics",
+  // },
+  // {
+  //   question: "The term 'E Pluribus Unum' represents what?",
+  //   allAnswers: [
+  //     "The original thirteen colonies",
+  //     "The year America was discovered",
+  //     "The pen used for the signature on all dollars",
+  //   ],
+  //   correctAnswer: "The pen used for the signature on all dollars",
+  // },
+  // {
+  //   question: "Why do we call a dollar a 'buck'?",
+  //   allAnswers: [
+  //     "The first dollar was made from the skin of a male deer",
+  //     "In the frontier days, the pelt of a male deer was worth a dollar",
+  //     "Buck was the artist that drew the design on the first paper money",
+  //   ],
+  //   correctAnswer: "The first dollar was made from the skin of a male deer",
+  // },
+  // {
+  //   question: "The word “tax” originates from:",
+  //   allAnswers: [
+  //     "The Latin taxo, meaning “I estimate”",
+  //     "The Greek taxum, meaning “to take",
+  //     "Taxi,” which takes you places for a fee",
+  //   ],
+  //   correctAnswer: "The Latin taxo, meaning “I estimate”",
+  // },
+  // {
+  //   question: "Which is better?",
+  //   allAnswers: [
+  //     "Getting $100,000 at once",
+  //     "Getting a penny that’s doubled every day for a 31-day month.",
+  //   ],
+  //   correctAnswer:
+  //     "Getting a penny that’s doubled every day for a 31-day month.",
+  // },
+  // {
+  // question: "What is the average annual rate of inflation for college tuition around the USA?",
+  //   allAnswers: [
+  //     "11%",
+  //     "4%",
+  //     "8%",
+  //     "2%"
+  //   ],
+  //   correctAnswer:
+  //     "8%",
+  // },
+  // {
+  //   question: "Bonds sold by cities or towns are called...",
+  //     allAnswers: [
+  //       "Municipal Bonds",
+  //       "Corporate Bonds",
+  //       "U.S. savings bonds",
+  //       "Coupon Bonds"
+  //     ],
+  //     correctAnswer:
+  //       "Municipal Bonds",
+  //   },
+  //   {
+  //     question: "Spreading out risk in your investments is called..",
+  //       allAnswers: [
+  //         "Diversification",
+  //         "Dollar-cost averaging",
+  //         "Fluctuation",
+  //         "Investment"
+  //       ],
+  //       correctAnswer:
+  //       "Diversification",
+  //     },
+  //     {
+  //       question: "When companies share profits with stockholders, this is called...",
+  //         allAnswers: [
+  //           "A stock split",
+  //           "Growth",
+  //           "A blue-chip stock",
+  //           "Dividends"
+  //         ],
+  //         correctAnswer:
+  //           "Dividends",
+  //       },
+  //       {
+  //         question: "Upward trends in the stock market are called...",
+  //           allAnswers: [
+  //             "Recessions",
+  //             "Fluctuations",
+  //             "Investments",
+  //             "Expansions"
+  //           ],
+  //           correctAnswer:
+  //             "Expansions",
+  //         },
+
+  //         {
+  //           question: "Ups and downs in the stock market are known as...",
+  //             allAnswers: [
+  //               "Expansions",
+  //               "Recessions",
+  //               "Fluctuations",
+  //               "Investments"
+  //             ],
+  //             correctAnswer:
+  //               "Fluctuations",
+  //           },
+  //           {
+  //             question: "A piece of the ownership of a company is called a...",
+  //               allAnswers: [
+  //                 "Dividend",
+  //                 "Principal",
+  //                 "Bond",
+  //                 "Stock"
+  //               ],
+  //               correctAnswer:
+  //                 "Stock",
+  //             },{
+  //               question: "The amount of money you invest is called...",
+  //                 allAnswers: [
+  //                   "Coupon rate",
+  //                   "Principal",
+  //                   "Dividents",
+  //                   "Growth"
+  //                 ],
+  //                 correctAnswer:
+  //                   "Principal",
+  //               },
+  //               {
+  //                 question: "The gradual decrease in the value of an asset is called...",
+  //                   allAnswers: [
+  //                     "Depreciation",
+  //                     "Appreciation",
+  //                     "Repossession",
+  //                     "Foreclosure"
+  //                   ],
+  //                   correctAnswer:
+  //                     "Depreciation",
+  //                 },
+  //                 {
+  //                   question: "The money you receive for working at a job is an example of",
+  //                     allAnswers: [
+  //                       "Discretionary Income",
+  //                       "A financial goal",
+  //                       "Income",
+  //                       "An expense"
+  //                     ],
+  //                     correctAnswer:
+  //                       "Discretionary Income",
+  //                   },
+
 ];
 
 // defined all the variables on top.
@@ -74,7 +185,7 @@ let questions = [
 let content = document.getElementById("content");
 let results = document.getElementById("results");
 
-let questionDiv = document.getElementById("questionDiv");
+let questionDiv = document.getElementById("questionDiv"); 
 let questionHolder = document.getElementById("question");
 let choicesHolder = document.getElementById("choices");
 let scoreHolder = document.getElementById("score");
@@ -107,6 +218,7 @@ function hideQuestionDiv() {
   scoreHolder.hidden = true;
   results.hidden = false;
 }
+
 
 // this is the function that shows the first question and and shows the options.
 function askQ() {
@@ -154,7 +266,7 @@ function askQ() {
 function validateAnswer() {
   // CHECK IF QUESTION WAS ASKED, DETERMINE IF WE PROCEED TO NEXT QUESTION
   if (wasQuestionAsked) {
-    submitButton.textContent = "NEXT QUESTION";
+    // submitButton.textContent = "NEXT QUESTION";
     wasQuestionAsked = false;
 
     //DETERMINE WHICH RADIO BUTTON WAS CLICKED
@@ -199,6 +311,8 @@ function validateAnswer() {
     } else {
       if (currentPlayer == "playerOne") {
         showPlayerOneScore();
+        hideQuestionDiv()
+
       } else {
         finalResults();
       }
@@ -208,6 +322,7 @@ function validateAnswer() {
 
 // FUNCTION THAT WILL DISPLAY THE SCORE ONCE TRIVIA GAME IS OVER
 function showPlayerOneScore() {
+  
   // hide the divs that hold the questions, choices, score etc. when you call this
   hideQuestionDiv();
 
@@ -225,12 +340,13 @@ function showPlayerOneScore() {
     // removed the class on the button, it wasn't doing anything
     "</h2>" +
     "<br>" +
-    "<button onclick='reset()'>PLAYER 2's TURN</button>";
+    "<button  onclick='reset()'>PLAYER 2's TURN</button>";
 }
 
 function finalResults() {
   // hide countdown when game ends
   document.getElementById("timer").hidden = true;
+  
   content.innerHTML =
     "Player 1:" +
     playerOneScore +
@@ -238,25 +354,24 @@ function finalResults() {
     score +
     "<br>Player " +
     (playerOneScore > score ? "1" : "2") +
-    " wins!";
+    " wins!" 
+  
 }
 
 //FUNCTION THAT WILL RESET THE GAME
 function reset() {
   if (currentPlayer == "playerOne") {
-    document.getElementById("timer").innerHTML = "YOU RAN OUT OF TIME!";
+    document.getElementById("timer").innerHTML = "TIME'S UP!";
     // reset timer for player 2
     clearInterval(timerTime);
     timer();
     questionTracker = 0;
     results.innerHTML = "";
     playerOneScore = score;
-
-    debugger;
-
     score = 0;
     currentPlayer = "playerTwo";
     askQ();
+    
   }
 }
 
@@ -270,7 +385,7 @@ let timer = () => {
   timerTime = setInterval(function () {
     if (remainingTime <= 0) {
       clearInterval(timerTime);
-      document.getElementById("timer").innerHTML = "YOU RAN OUT OF TIME!";
+      document.getElementById("timer").innerHTML = "TIME'S UP!";
       if (currentPlayer == "playerOne") {
         showPlayerOneScore();
       }
@@ -291,74 +406,4 @@ let timer = () => {
 
 
 
-//IGNORE all of the failed attemps below
 
-// document.getElementById('alrt').innerHTML='<b>"Times Up!!!" </b>';
-// setTimeout(function timer() {document.getElementById('alrt').innerHTML='';showFinalScore()
-// ;},5000);
-
-// let secs = 0;
-//     let id = setInterval(function timer(){
-//         secs++; console.log(secs);
-//       if(secs> 9){
-//         clearInterval(id);
-//         alert("Time's up!");
-//         showFinalScore();
-//        }
-//     }, 00);
-// }
-
-// let questionBox = document.getElementById("questions");
-// let submitButton = document.getElementById("submit");
-// let wasQuestionAsked = true;
-// let questionTracker = 0;
-// let score = 0;
-// //let div0= document.querySelector("#questions");
-// questions
-// p1 = document.createElement("p")
-// p1.innerText= "Companies that continue to operate even though they’re bankrupt are called ?"
-// p1.classList.add("question1")
-// div0.appendChild(p1)
-// setTimeout(function () {
-//   document.querySelector(".question1").style.display = "block";
-// }, 30);
-// setTimeout(function () {
-//   document.querySelector(".question1").style.display = "none";
-// }, 10000);
-// // console.log(p1);
-// // console.log(div0);
-// //question 2
-// p2 = document.createElement("p")
-// p2.innerText = "Lets get this Bread, refers to ..."
-// p2.classList.add("question2")
-// div0.appendChild(p2)
-// console.log(p2);
-// console.log(div0);
-
-// setTimeout(function () {
-//     document.querySelector(".question2").style.display = "block";
-//   }, 30000);
-//   setTimeout(function () {
-//     document.querySelector(".question2").style.display = "none";
-//   }, 40000);
-
-// var div = document.getElementById('questions');
-
-// div.innerHTML +=
-
-// let p0= document.createElement("p");
-// p0.innerText(questionHolder)
-
-// function getQuestion() {
-//   const randomNumber = Math.floor(Math.random() * myQuestions.length);
-
-//   questionBox.appendChild(document.createElement("br"));
-//   let question = document.createElement("h3");
-//   let text = document.createTextNode(myQuestions[randomNumber].question); // function calls the questions to the board
-//   question.appendChild(text);
-//   console.log(typeof question);
-
-//   questionBox.appendChild(question); // writes the questions on the  board
-//   let options = myQuestions[randomNumber].allAnswers; // calls the answers to the board
-//   questionBox.appendChild(document.createElement("br"));
-//   let name = "radio" + randomNumber;
