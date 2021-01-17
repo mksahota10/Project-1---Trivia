@@ -5,136 +5,136 @@ let questions = [
     allAnswers: ["Mummy", "Zombie", "DeadWater"],
     correctAnswer: "Zombie",
   },
-  {
-    question: "Lets get this Bread, refers to",
-    allAnswers: ["Debt", "Food", "Money"],
-    correctAnswer: "Money",
-  },
-  {
-    question: "In what year was the first U.S. penny minted? ",
-    allAnswers: ["1792", "1620", "1865"],
-    correctAnswer: "1792",
-  },
-  {
-    question:
-      "What is the highest $ value of currency ever issued by the U.S. government?",
-    allAnswers: ["The 100 bill", "The $500 bill", "The $100,000 bill"],
-    correctAnswer: "The $100,000 bill",
-  },
-  {
-    question: "What is the offical term for the HEAD side of the coin?",
-    allAnswers: ["Front", "IPS (Important Person Side)", "Obverse"],
-    correctAnswer: "Obverse",
-  },
-  {
-    question: "What is the science of coins called?",
-    allAnswers: ["Centology", "Greed", "Numismatics"],
-    correctAnswer: "Numismatics",
-  },
-  {
-    question: "The term 'E Pluribus Unum' represents what?",
-    allAnswers: [
-      "The original thirteen colonies",
-      "The year America was discovered",
-      "The pen used for the signature on all dollars",
-    ],
-    correctAnswer: "The pen used for the signature on all dollars",
-  },
-  {
-    question: "Why do we call a dollar a 'buck'?",
-    allAnswers: [
-      "The first dollar was made from the skin of a male deer",
-      "In the frontier days, the pelt of a male deer was worth a dollar",
-      "Buck was the artist that drew the design on the first paper money",
-    ],
-    correctAnswer: "The first dollar was made from the skin of a male deer",
-  },
-  {
-    question: "The word “tax” originates from:",
-    allAnswers: [
-      "The Latin taxo, meaning “I estimate”",
-      "The Greek taxum, meaning “to take",
-      "Taxi,” which takes you places for a fee",
-    ],
-    correctAnswer: "The Latin taxo, meaning “I estimate”",
-  },
-  {
-    question: "Which is better?",
-    allAnswers: [
-      "Getting $100,000 at once",
-      "Getting a penny that’s doubled every day for a 31-day month.",
-    ],
-    correctAnswer:
-      "Getting a penny that’s doubled every day for a 31-day month.",
-  },
-  {
-    question:
-      "What is the average annual rate of inflation for college tuition around the USA?",
-    allAnswers: ["11%", "4%", "8%", "2%"],
-    correctAnswer: "8%",
-  },
-  {
-    question: "Bonds sold by cities or towns are called...",
-    allAnswers: [
-      "Municipal Bonds",
-      "Corporate Bonds",
-      "U.S. savings bonds",
-      "Coupon Bonds",
-    ],
-    correctAnswer: "Municipal Bonds",
-  },
-  {
-    question: "Spreading out risk in your investments is called..",
-    allAnswers: [
-      "Diversification",
-      "Dollar-cost averaging",
-      "Fluctuation",
-      "Investment",
-    ],
-    correctAnswer: "Diversification",
-  },
-  {
-    question:
-      "When companies share profits with stockholders, this is called...",
-    allAnswers: ["A stock split", "Growth", "A blue-chip stock", "Dividends"],
-    correctAnswer: "Dividends",
-  },
-  {
-    question: "Upward trends in the stock market are called...",
-    allAnswers: ["Recessions", "Fluctuations", "Investments", "Expansions"],
-    correctAnswer: "Expansions",
-  },
+  // {
+  //   question: "Lets get this Bread, refers to",
+  //   allAnswers: ["Debt", "Food", "Money"],
+  //   correctAnswer: "Money",
+  // },
+  // {
+  //   question: "In what year was the first U.S. penny minted? ",
+  //   allAnswers: ["1792", "1620", "1865"],
+  //   correctAnswer: "1792",
+  // },
+  // {
+  //   question:
+  //     "What is the highest $ value of currency ever issued by the U.S. government?",
+  //   allAnswers: ["The 100 bill", "The $500 bill", "The $100,000 bill"],
+  //   correctAnswer: "The $100,000 bill",
+  // },
+  // {
+  //   question: "What is the offical term for the HEAD side of the coin?",
+  //   allAnswers: ["Front", "IPS (Important Person Side)", "Obverse"],
+  //   correctAnswer: "Obverse",
+  // },
+  // {
+  //   question: "What is the science of coins called?",
+  //   allAnswers: ["Centology", "Greed", "Numismatics"],
+  //   correctAnswer: "Numismatics",
+  // },
+  // {
+  //   question: "The term 'E Pluribus Unum' represents what?",
+  //   allAnswers: [
+  //     "The original thirteen colonies",
+  //     "The year America was discovered",
+  //     "The pen used for the signature on all dollars",
+  //   ],
+  //   correctAnswer: "The pen used for the signature on all dollars",
+  // },
+  // {
+  //   question: "Why do we call a dollar a 'buck'?",
+  //   allAnswers: [
+  //     "The first dollar was made from the skin of a male deer",
+  //     "In the frontier days, the pelt of a male deer was worth a dollar",
+  //     "Buck was the artist that drew the design on the first paper money",
+  //   ],
+  //   correctAnswer: "The first dollar was made from the skin of a male deer",
+  // },
+  // {
+  //   question: "The word “tax” originates from:",
+  //   allAnswers: [
+  //     "The Latin taxo, meaning “I estimate”",
+  //     "The Greek taxum, meaning “to take",
+  //     "Taxi,” which takes you places for a fee",
+  //   ],
+  //   correctAnswer: "The Latin taxo, meaning “I estimate”",
+  // },
+  // {
+  //   question: "Which is better?",
+  //   allAnswers: [
+  //     "Getting $100,000 at once",
+  //     "Getting a penny that’s doubled every day for a 31-day month.",
+  //   ],
+  //   correctAnswer:
+  //     "Getting a penny that’s doubled every day for a 31-day month.",
+  // },
+  // {
+  //   question:
+  //     "What is the average annual rate of inflation for college tuition around the USA?",
+  //   allAnswers: ["11%", "4%", "8%", "2%"],
+  //   correctAnswer: "8%",
+  // },
+  // {
+  //   question: "Bonds sold by cities or towns are called...",
+  //   allAnswers: [
+  //     "Municipal Bonds",
+  //     "Corporate Bonds",
+  //     "U.S. savings bonds",
+  //     "Coupon Bonds",
+  //   ],
+  //   correctAnswer: "Municipal Bonds",
+  // },
+  // {
+  //   question: "Spreading out risk in your investments is called..",
+  //   allAnswers: [
+  //     "Diversification",
+  //     "Dollar-cost averaging",
+  //     "Fluctuation",
+  //     "Investment",
+  //   ],
+  //   correctAnswer: "Diversification",
+  // },
+  // {
+  //   question:
+  //     "When companies share profits with stockholders, this is called...",
+  //   allAnswers: ["A stock split", "Growth", "A blue-chip stock", "Dividends"],
+  //   correctAnswer: "Dividends",
+  // },
+  // {
+  //   question: "Upward trends in the stock market are called...",
+  //   allAnswers: ["Recessions", "Fluctuations", "Investments", "Expansions"],
+  //   correctAnswer: "Expansions",
+  // },
 
-  {
-    question: "Ups and downs in the stock market are known as...",
-    allAnswers: ["Expansions", "Recessions", "Fluctuations", "Investments"],
-    correctAnswer: "Fluctuations",
-  },
-  {
-    question: "A piece of the ownership of a company is called a...",
-    allAnswers: ["Dividend", "Principal", "Bond", "Stock"],
-    correctAnswer: "Stock",
-  },
-  {
-    question: "The amount of money you invest is called...",
-    allAnswers: ["Coupon rate", "Principal", "Dividents", "Growth"],
-    correctAnswer: "Principal",
-  },
-  {
-    question: "The gradual decrease in the value of an asset is called...",
-    allAnswers: ["Depreciation", "Appreciation", "Repossession", "Foreclosure"],
-    correctAnswer: "Depreciation",
-  },
-  {
-    question: "The money you receive for working at a job is an example of",
-    allAnswers: [
-      "Discretionary Income",
-      "A financial goal",
-      "Income",
-      "An expense",
-    ],
-    correctAnswer: "Discretionary Income",
-  },
+  // {
+  //   question: "Ups and downs in the stock market are known as...",
+  //   allAnswers: ["Expansions", "Recessions", "Fluctuations", "Investments"],
+  //   correctAnswer: "Fluctuations",
+  // },
+  // {
+  //   question: "A piece of the ownership of a company is called a...",
+  //   allAnswers: ["Dividend", "Principal", "Bond", "Stock"],
+  //   correctAnswer: "Stock",
+  // },
+  // {
+  //   question: "The amount of money you invest is called...",
+  //   allAnswers: ["Coupon rate", "Principal", "Dividents", "Growth"],
+  //   correctAnswer: "Principal",
+  // },
+  // {
+  //   question: "The gradual decrease in the value of an asset is called...",
+  //   allAnswers: ["Depreciation", "Appreciation", "Repossession", "Foreclosure"],
+  //   correctAnswer: "Depreciation",
+  // },
+  // {
+  //   question: "The money you receive for working at a job is an example of",
+  //   allAnswers: [
+  //     "Discretionary Income",
+  //     "A financial goal",
+  //     "Income",
+  //     "An expense",
+  //   ],
+  //   correctAnswer: "Discretionary Income",
+  // },
 ];
 
 // defined all the variables on top.
@@ -294,10 +294,9 @@ function showPlayerOneScore() {
     "<br>" +
     "Your percentage was: " +
     Math.round((score / questions.length) * 100) +
-    // removed the class on the button, it wasn't doing anything
     "</h2>" +
     "<br>" +
-    "<button  onclick='reset()'>PLAYER 2's TURN</button>";
+     "<button  onclick='reset()'>PLAYER 2's TURN</button>";
 }
 
 function finalResults() {
@@ -305,9 +304,6 @@ function finalResults() {
   document.getElementById("timer").hidden = true;
    document.getElementById("question").hidden = true;
    document.getElementById("choices").hidden = true;
-   
-
-  
   content.innerHTML =
     "Player 1:" +
     playerOneScore +
@@ -315,8 +311,9 @@ function finalResults() {
     score +
     "<br>Player " +
     (playerOneScore > score ? "1" : "2") +
-    " wins!" 
-  
+    " wins!" +
+    "<br>" +
+    "<button  onclick='location.reload()'>RESTART GAME</button>";
 }
 
 //FUNCTION THAT WILL RESET THE GAME
