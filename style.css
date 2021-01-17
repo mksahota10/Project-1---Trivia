@@ -1,19 +1,14 @@
 
 body{
-  color: rgb(0, 0, 0);
-  font-family: Rockwell Extra Bold;
+  color: white;
+  font-family: 'Rockwell Extra Bold';
   text-align: center;
-  background-color:white;
-  margin: 50px auto;
-    
-  background-image: url(wallstreet.jpg);
-  /* background-repeat: no-repeat; */
+  margin: 50px auto;  
   width: 95%;
-  background-position: center;
-  background-repeat: no-repeat;
   backdrop-filter: blur(10px); 
   cursor:pointer;
-  
+  border: 15px solid yellow;
+  background-image: url(https://media1.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif?cid=ecf05e47ssx0x86e3yzmowir9yt59m0lmh8xaki79wm9p1lf&rid=giphy.gif); 
 }
 
 h1{
@@ -21,41 +16,43 @@ font-size: 75px;
 color: yellow;
 border: 10px solid #3f3f3f;
 margin: 20px auto;
-font-family: Rockwell Extra Bold;
+font-family: 'Rockwell Extra Bold';
 width: 700px;
 height: 50px;
 padding: 30px 75px 75px 100px;
-background-color:rgb(83, 110, 122)
+background-color:rgb(83, 110, 122);
+ background-image: url(https://media1.giphy.com/media/TZf4ZyXb0lXXi/giphy.gif?cid=ecf05e47ssx0x86e3yzmowir9yt59m0lmh8xaki79wm9p1lf&rid=giphy.gif); 
 }
 
 #question{
   display: grid;
   width: 306px;
   margin: 50px auto;
-  font-family: Rockwell Extra Bold;
+  font-family: 'Rockwell Extra Bold';
   width: 700px;
-  height: 200px;
+  height: 170px;
   box-shadow: 0 0 0 0px #444141;
   border: 10px solid #3f3f3f;
   cursor: pointer;
   line-height: 50px;
   font-size: 30px;
   background-color:white;
+  color:black;
 }
 #choices{
-  color:#ffffff;
-  font-weight: bold;
+  color:white;
   border: 5px solid #3f3f3f;
-  width: 500px;
+  width: 550px;
   height: 100px;
-  background-color:rgb(83, 110, 122);
+   background-color:rgb(83, 110, 122); 
   margin: 20px auto;
+  padding: auto;
  
 }
 
 button{
   background:rgb(83, 110, 122);
-  font-family: Rockwell Extra Bold;
+  font-family: 'Rockwell Extra Bold';
   color:yellow;
   border:none;
   position:relative;
@@ -96,5 +93,19 @@ button:hover:before,button:hover:after{
     font-size: 10px;
     width: 120px;
     margin: 10px auto;
+    background-color:white;
+    color:black;
   }
+
+  #results{
+    border: 5px solid yellow;
+    font-size: 10px;
+    width: 300px;
+    margin: 10px auto;
+    background-color:white;
+    color: black;
+  }
+
+  
+  
 
